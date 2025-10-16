@@ -1,0 +1,8 @@
+D:\clion\bin\cmake\win\x64\bin\cmake.exe -G "Visual Studio 16 2019" -S F:\raytracingInOneWeeken\raytracing -B F:\raytracingInOneWeeken\raytracing\cmake-build-debug-visual-studio
+-- Selecting Windows SDK version 10.0.22621.0 to target Windows 10.0.19045.
+-- Compiler ID: MSVC
+-- Release flags: /O2 /Ob2 /DNDEBUG
+-- Debug flag: /Ob0 /Od /RTC1
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: F:/raytracingInOneWeeken/raytracing/cmake-build-debug-visual-studio

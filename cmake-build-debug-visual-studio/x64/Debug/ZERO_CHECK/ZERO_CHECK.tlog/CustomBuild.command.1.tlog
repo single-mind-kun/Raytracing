@@ -1,0 +1,10 @@
+^F:\RAYTRACINGINONEWEEKEN\RAYTRACING\CMAKE-BUILD-DEBUG-VISUAL-STUDIO\CMAKEFILES\52768DC199DB16655A13BEC026BF9DDC\GENERATE.STAMP.RULE
+setlocal
+D:\clion\bin\cmake\win\x64\bin\cmake.exe -SF:/raytracingInOneWeeken/raytracing -BF:/raytracingInOneWeeken/raytracing/cmake-build-debug-visual-studio --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file F:/raytracingInOneWeeken/raytracing/cmake-build-debug-visual-studio/RTPractice.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

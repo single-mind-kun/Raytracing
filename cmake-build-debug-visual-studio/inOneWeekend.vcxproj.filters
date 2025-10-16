@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\raytracingInOneWeeken\raytracing\src\InOneWeekend\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\raytracingInOneWeeken\raytracing\src\external\stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\raytracingInOneWeeken\raytracing\src\InOneWeekend\public\vec3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\raytracingInOneWeeken\raytracing\src\InOneWeekend\public\color.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\raytracingInOneWeeken\raytracing\src\InOneWeekend\public\ray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\raytracingInOneWeeken\raytracing\src\InOneWeekend\public\hittable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\raytracingInOneWeeken\raytracing\src\InOneWeekend\public\sphere.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\raytracingInOneWeeken\raytracing\src\InOneWeekend\public\hittable_list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\raytracingInOneWeeken\raytracing\src\InOneWeekend\public\rtweekend.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\raytracingInOneWeeken\raytracing\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{DB103C0D-5D4B-35A7-B12E-75AECECC759C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3D1C3BB1-46B8-3271-B277-246EA4824527}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -326,6 +326,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="F:\raytracingInOneWeeken\raytracing\src\InOneWeekend\public\sphere.h" />
     <ClInclude Include="F:\raytracingInOneWeeken\raytracing\src\InOneWeekend\public\hittable_list.h" />
     <ClInclude Include="F:\raytracingInOneWeeken\raytracing\src\InOneWeekend\public\rtweekend.h" />
+    <ClInclude Include="F:\raytracingInOneWeeken\raytracing\src\InOneWeekend\public\interval.h" />
+    <ClInclude Include="F:\raytracingInOneWeeken\raytracing\src\InOneWeekend\public\camera.h" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="F:\raytracingInOneWeeken\raytracing\cmake-build-debug-visual-studio\ZERO_CHECK.vcxproj">

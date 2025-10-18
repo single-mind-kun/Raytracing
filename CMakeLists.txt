@@ -18,6 +18,8 @@ set(SOURCE_ONE_WEEKEND
     src/InOneWeekend/public/sphere.h
     src/InOneWeekend/public/hittable_list.h
     src/InOneWeekend/public/rtweekend.h
+    src/InOneWeekend/public/interval.h
+    src/InOneWeekend/public/camera.h
 )
 
 include_directories(src)

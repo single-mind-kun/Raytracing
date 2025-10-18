@@ -12,14 +12,14 @@ class sphere : public hittable{
 public:
     sphere(){}
     sphere(vec3 cen, double r) : center(cen), radius(r){}
-    bool hit(const ray& r, double tmin, double tmax, hit_record& rec) const override;
+    bool hit(const ray& r, interval ray_t, hit_record& rec) const override;
     ~sphere(){}
 private:
     point3 center;
     double radius;
 };
 
-bool sphere::hit(const ray &r, double tmin, double tmax, hit_record &rec) const {
+bool sphere::hit(const ray &r, interval ray_t, hit_record &rec) const {
     vec3 oc = r.origin() - center;
     double a = r.direction().length_squared();
     double half_b = dot(oc, r.direction());
@@ -33,9 +33,9 @@ bool sphere::hit(const ray &r, double tmin, double tmax, hit_record &rec) const 
     double sqrtd = std::sqrt(discriminant);
     double t = (-half_b - sqrtd) / a;
 
-    if(t <= tmin || t >= tmax){
+    if(!ray_t.surrounds(t)){
         t = (-half_b + sqrtd) / a;
-        if(t <= tmin || t >= tmax){
+        if(!ray_t.surrounds(t)){
             return false;
         }
     }

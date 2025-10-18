@@ -1,2 +1,4 @@
 ﻿  main.cpp
+F:\raytracingInOneWeeken\raytracing\src\InOneWeekend\public/camera.h(56,1): warning C4458: “pixel00_loc”的声明隐藏了类成员
+F:\raytracingInOneWeeken\raytracing\src\InOneWeekend\public/camera.h(36,12): message : 参见“camera::pixel00_loc”的声明
   inOneWeekend.vcxproj -> F:\raytracingInOneWeeken\raytracing\cmake-build-debug-visual-studio\Debug\inOneWeekend.exe
